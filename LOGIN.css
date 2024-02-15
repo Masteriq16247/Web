@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(34, 104, 195) 0%, rgb(229, 45, 253) 100%);
+    height: 601px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-family: 'Protest Strike', sans-serif;
+    margin: 25px 15px;
+}
+
+.icon-in{
+    width: 15px;
+    height: 14px;
+}
+
+.email{
+    border-radius: 10px;
+    width: 250px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(85, 85, 85, 0.337);
+    padding: 15px;
+    margin: 10px;
+}
+
+.email-in{
+    color: black;
+    border: none;
+    background-color: rgba(85, 85, 85, 0);
+    padding-left: 10px;
+}
+
+.pass{
+    border-radius: 10px;
+    width: 250px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(85, 85, 85, 0.337);
+    padding: 15px;
+    margin: 10px;
+}
+
+.pass-in{
+    color: black;
+    border: none;
+    background-color: rgba(85, 85, 85, 0);
+    padding-left: 10px;
+}
+
+.h4{
+    color: gray;
+    padding-left:15px;
+    float: right;
+    padding-right: 120px;
+}
+
+.submit{
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(166, 9, 187);
+    color: white;
+}
+
+.submit:hover{
+    background-color: rgba(166, 9, 187, 0.644);
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+.or{
+    margin: 25px;
+    color: gray;
+    font-size: 13px;
+}
+
+.hola p{
+    float: right;
+    font-size: 15px;
+}
+
+.hola1 p{
+    float: right;
+    font-size: 15px;
+}
+
+.padre-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hola{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.hola img{
+    width: 25px;
+    padding-right: 5px;
+}
+
+.hola1 img{
+    width: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+
+h4{
+    text-decoration: underline;
+    float: right;
+}
+

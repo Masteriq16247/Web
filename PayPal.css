@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.pay{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: white;
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 25px;
+}
+
+img{
+    width: 100px;
+}
+
+#email{
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+#pass{
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+#login{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    background-color: rgb(41, 151, 216);
+    color: white;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(41, 151, 216);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border: 1.px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+
+#SingUp{
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 25px;
+    width: 300px;
+    background-color: rgba(129, 129, 129, 0.438);
+    color: black;
+    border: none;
+}
+
+#login:hover{
+    transition: all ease .5s;
+    transform: scale(1.100);
+    background-color: rgb(21, 108, 158);
+}
+
+#SingUp:hover{
+    transition: all ease .5s;
+    transform: scale(1.100);
+    background-color: rgba(129, 129, 129);
+}
