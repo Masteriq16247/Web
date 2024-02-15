@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+div{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px ;
+}
+
+.formulario{
+    position: relative;
+    background-color: #fff;
+    width: 400px;
+    height: 360px;
+    min-height: 0px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.formulario input, textarea {
+    display: block;
+    border-color: #555;
+    border: 2px solid #333 ;
+}
+
+.formulario input{
+    border-radius: 50px;
+}
+
+.formulario textarea{
+    border-radius: 25px;
+}
+
+.formulario textarea{
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+
+#Nombre{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#Mensaje{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#Enviar{
+    border: none;
+    position: absolute;
+    right: 40%;
+    padding: 8px;
+    background-color: #333;
+    color: white;
+    border-radius: 50px;
+    width: 100px;
+}
+
+#Enviar:hover{
+    color: white;
+    background-color: #555;
+    cursor: pointer;
+}  
+
+.img{
+    width: 50px;
+}
